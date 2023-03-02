@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3baybx');
+  src:  url('fonts/icomoon.eot?3baybx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3baybx') format('truetype'),
+    url('fonts/icomoon.woff?3baybx') format('woff'),
+    url('fonts/icomoon.svg?3baybx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trello:before {
+  content: "\e909";
+}
+.icon-printer:before {
+  content: "\e906";
+}
+.icon-smartphone:before {
+  content: "\e907";
+}
+.icon-monitor:before {
+  content: "\e908";
+}
+.icon-mountains:before {
+  content: "\e905";
+  color: #ffe500;
+}
+.icon-menu-btn:before {
+  content: "\e904";
+  color: #ffe500;
+}
+.icon-logo:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-google:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e900";
+}
